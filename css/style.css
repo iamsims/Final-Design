@@ -317,13 +317,6 @@ div.gallery {
     background-color: #eeeeee;
 }
 
-.footer-content{
-    width:23.5%;
-    float:left;
-    margin:30px 0px 0px 2%;
-    color:#7c7c7c;
-}
-
 .paragraph1{
     font-size:11px;
     padding:30px 0px 0px 0px;
@@ -332,10 +325,6 @@ div.gallery {
 .paragraph2{
     font-size:11px;
     padding:15px 0px 0px 0px;
-}
-
-.footer-content:first-child{
-    margin-left:0px;
 }
 
 .link{
@@ -388,10 +377,17 @@ div.gallery {
     font-size:11px;
   }
 
+.footer-content div{
+    display:none;
+}
 
-
-
-
+.footer-content{
+    width:100%;
+    margin:auto;
+    float:none;
+    color:#7c7c7c;
+    text-align:center;
+}
 
 
 
@@ -471,6 +467,26 @@ div.gallery {
   }
   
   @media only screen and (min-width: 768px) {
+
+
+
+.footer-content{
+    width:23.5%;
+    display:block;
+    float:left;
+    margin:30px 0px 0px 2%;
+}
+
+.footer-content:first-child{
+    margin-left:0px;
+}
+
+.footer-content div{
+    display:block;
+}
+
+
+
 
     .copyright{
         font-size:13px;
