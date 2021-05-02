@@ -80,9 +80,10 @@
 
 .service-desc {
     float: right;
-    width: 66.6%;
-    padding: 0px 0 0px 10%;
+    width:66.6%;
+    padding: 0px 0 0px 5%;
 }
+
 
 .line {
     overflow: hidden;
